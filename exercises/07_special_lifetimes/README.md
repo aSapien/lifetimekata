@@ -8,7 +8,7 @@ There are two special lifetimes in Rust. It's worth discussing them both:
 # The `static` lifetime
 
 Some things in your program are guaranteed to last forever. The most common reason for this
-is when they're information bundled inside your binary. For example, when you write
+is when their information is bundled inside your binary. For example, when you write
 a program like this:
 
 ``` rust
